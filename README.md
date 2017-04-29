@@ -30,10 +30,10 @@ print('The host reveals door #{}'.format(door_host_reveals))
 
 Output: `The host reveals door #2`
 
-Now there are 2 doors remaining on unopened on stage.
-Just to confuse you, the host offers you the opportunity to switch your choice of doors to the one remaining unopened.
-Now you have a choice. Do you switch your choice to the remaining door that is left unrevealed, or stay with your original choice?
-Two doors left on stage. You don't know what is behind either one. You might think you have a 50/50 probability at this point. Lets see....
+Now there are 2 doors remaining unopened on stage.
+Just to confuse you, the host offers you the opportunity to switch your choice of doors.
+Now you have a choice. Do you switch to the remaining door that is left unrevealed, or stay with your original choice?
+You might think you have a 50/50 probability at this point. Lets see....
 
 ##### Scenario 1: You keep your original door choice.
 
@@ -75,9 +75,6 @@ Output: `After 10000 rounds, you won 0.3318% of the time keeping your choice.`
 ##### Scenario 2: You switch doors.
 
 ```python
-# All the code has been copied here so that we can run 
-# this problem numerous times in the simulation.
-
 doors = [1, 2, 3]
 wins = 0
 losses = 0
